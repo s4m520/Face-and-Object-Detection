@@ -1,7 +1,8 @@
 # Face-and-Object-Detection
-<br>
 
-## Setup Instructions
+This project demonstrates two detection systems programmed with OpenCV:
+- Face Detection: Detects faces using the Haar Cascade Classifier.
+- Object Detection: Identifies and labels up to 80 object classes using YOLOv3 (You Only Look Once) deep learning model.
 
 
 
