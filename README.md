@@ -6,6 +6,18 @@ This project demonstrates two detection applications built with OpenCV in Python
 
 <br>
 
+## Table of Contents
+- [Setup Instructions](#-setup-instructions)
+  - [Prerequisites](#prerequisites)
+  - [Install Python](#1-install-python)
+  - [Install Required Packages](#2-install-required-packages)
+- [Required Downloads](#-required-downloads)
+  - [File Structure](#file-structure)
+- [How to Run](#-how-to-run)
+  - [Face Detection](#face-detection)
+  - [Object Detection](#object-detection)
+<br>
+
 ## Setup Instructions
 ### Prerequisites
 - Python 3.7+
