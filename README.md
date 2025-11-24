@@ -43,7 +43,6 @@ CV Project/
 
 ## How to Run
 ### 1. Face Detection
-Make sure `yolov3.weights` file is in the `yolo/` folder before running.
 Open a terminal in the project folder and run:
 ```bash
 python face.py
