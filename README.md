@@ -43,6 +43,7 @@ CV Project/
 
 ## How to Run
 ### 1. Face Detection
+Make sure `yolov3.weights` file is in the `yolo/` folder before running.
 Open a terminal in the project folder and run:
 ```bash
 python face.py
@@ -58,7 +59,6 @@ Open a terminal in the project folder and run:
 python object.py
 ```
 Press 'q' to quit
-- Make sure `yolov3.weights` file is in the `yolo/` folder before running.
 - **Results:**
   - Detects 80 different object categories (listed in the `coco.names` file)
   - Draws green boxes around detected objects with labels and confidence scores.
