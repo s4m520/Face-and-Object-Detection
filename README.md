@@ -6,7 +6,7 @@ This project demonstrates two detection applications built with OpenCV in Python
 
 <br>
 
-## 📚 Table of Contents
+## Table of Contents
 - [Setup Instructions](#setup-instructions)
   - [Prerequisites](#prerequisites)
   - [Install Python](#1-install-python)
@@ -19,8 +19,8 @@ This project demonstrates two detection applications built with OpenCV in Python
 
 <br>
 
-## ⚙️ Setup Instructions
 <a name="setup-instructions"></a>
+## ⚙️ Setup Instructions
 ### Prerequisites
 - Python 3.7+
 - OpenCV
@@ -36,8 +36,8 @@ pip install opencv-python numpy
 ```
 <br>
 
-## 📁 Required Downloads
 <a name="required-downloads"></a>
+## 📁 Required Downloads
 - **Face Detection:** No additional files needed (uses built-in OpenCV classifier).
 - **Object Detection:**
   1. Download the YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
@@ -56,8 +56,8 @@ CV Project/
 ```
 <br>
 
-## 🚀 How to Run
 <a name="how-to-run"></a>
+## 🚀 How to Run
 ### Face Detection
 Open a terminal in the project folder and run:
 ```bash
