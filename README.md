@@ -25,6 +25,7 @@ pip install opencv-python numpy
 ## Dataset Download
 1. For **Face Detection:** No additional files needed (uses built-in OpenCV Classifier)
 2. For **Object Detection:** Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
+<br>
 Place the downloaded `yolov3.weights` file in the `yolo/` folder
 
 
