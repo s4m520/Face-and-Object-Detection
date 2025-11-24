@@ -11,7 +11,6 @@ This project demonstrates two detection systems programmed with OpenCV:
 - Python 3.8+
 - OpenCV
 - NumPY
-<br>
 
 ### 1. Install Python
 Ensure you have **Python 3.8 or higher** installed.
@@ -24,8 +23,8 @@ pip install opencv-python numpy
 <br>
 
 ## Dataset Download
-1. For Face Detection: No additional files needed (uses built-in OpenCV Classifier)
-2. For Object Detection: Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
+1. For **Face Detection:** No additional files needed (uses built-in OpenCV Classifier)
+2. For **Object Detection:** Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
 Place the downloaded `yolov3.weights` file in the `yolo/` folder
 
 
