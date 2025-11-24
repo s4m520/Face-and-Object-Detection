@@ -25,7 +25,7 @@ pip install opencv-python numpy
 ## Dataset Download
 - For **Face Detection:** No additional files needed (uses built-in OpenCV Classifier).
 - For **Object Detection:**
-  1. Download YOLOv3 weights file from: `https://pjreddie.com/media/files/yolov3.weights`
+  1. Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
   2. Place the downloaded `yolov3.weights` file in the `yolo/` folder.
 
 ### File Structure
@@ -48,5 +48,5 @@ python face.py
 ```
 - Press 'q' to quit
 - **Results:**
- - It should detect faces using webcam.
- - It should draw red squares around detected faces.
+  - It should detect faces using webcam.
+  - It should draw red squares around detected faces.
