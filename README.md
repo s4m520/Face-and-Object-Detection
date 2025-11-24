@@ -48,5 +48,15 @@ python face.py
 ```
 - Press 'q' to quit
 - **Results:**
-  - It should detect faces using webcam.
-  - It should draw red squares around detected faces.
+  - Detects faces using webcam.
+  - Draws red squares around detected faces.
+ 
+### Object Detection
+```bash
+python object.py
+```
+- Press 'q' to quit
+- Make sure `yolov3.weights` file is in the `yolo/` folder before running.
+- **Results:**
+  - Detects 80 different object categories (listed in the `coco.names` file)
+  - Draws green boxes around detected objects with labels and confidence scores.
