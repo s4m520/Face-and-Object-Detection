@@ -28,5 +28,15 @@ pip install opencv-python numpy
   1. Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
   2. Place the downloaded `yolov3.weights` file in the `yolo/` folder
 
-
+### File Structure
+```
+CV Project/
+├── face.py
+├── object.py
+├── yolo/
+|   ├── coco.names
+│   ├── yolov3.cfg
+│   └── yolov3.weights (download separately)
+└── README.md
+```
 
