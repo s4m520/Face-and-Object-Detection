@@ -8,7 +8,7 @@ This project demonstrates two detection applications built with OpenCV in Python
 
 ## Table of Contents
 - [Setup Instructions](#setup-instructions)
-  - [Prerequisites](#prerequisites)
+  - [System Requirements](#system-requirements)
   - [Install Python](#1-install-python)
   - [Install Required Packages](#2-install-required-packages)
 - [Required Downloads](#required-downloads)
@@ -21,7 +21,7 @@ This project demonstrates two detection applications built with OpenCV in Python
 
 <a name="setup-instructions"></a>
 ## ⚙️ Setup Instructions
-### Prerequisites
+### System Requirements
 - Python 3.7+
 - OpenCV
 - NumPy
