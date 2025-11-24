@@ -7,8 +7,8 @@ This project demonstrates two detection systems programmed with OpenCV:
 <br>
 
 ## Setup Instructions
-### Prerequisites
-- Python 3.8+
+### System Requirements
+- Python 3.7+
 - OpenCV
 - NumPY
 
