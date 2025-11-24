@@ -42,20 +42,22 @@ CV Project/
 <br>
 
 ## How to Run
-### Face Detection
+### 1. Face Detection
+Open a terminal in the project folder and run:
 ```bash
 python face.py
 ```
-- Press 'q' to quit
+Press 'q' to quit
 - **Results:**
   - Detects faces using webcam.
   - Draws red squares around detected faces.
  
-### Object Detection
+### 2. Object Detection
+Open a terminal in the project folder and run:
 ```bash
 python object.py
 ```
-- Press 'q' to quit
+Press 'q' to quit
 - Make sure `yolov3.weights` file is in the `yolo/` folder before running.
 - **Results:**
   - Detects 80 different object categories (listed in the `coco.names` file)
