@@ -16,6 +16,7 @@ This project demonstrates two detection applications built with OpenCV in Python
 - [How to Run](#how-to-run)
   - [Face Detection](#face-detection)
   - [Object Detection](#object-detection)
+
 <br>
 
 ## ⚙️ Setup Instructions
