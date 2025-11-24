@@ -7,7 +7,18 @@ This project demonstrates two detection systems programmed with OpenCV:
 <br>
 
 ## Setup Instructions
+### Prerequisites
+- Python 3.8+
+- OpenCV
+- NumPY
+- 
 ### 1. Install Python
+Ensure you have **Python 3.8 or higher** installed.
 
+### 2. Install Required Packages
+Open a terminal in the project folder and run:
+```bash
+pip install opencv-python numpy
+```
 
 yolo weights : https://pjreddie.com/media/files/yolov3.weights
