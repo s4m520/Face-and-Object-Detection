@@ -20,5 +20,12 @@ Open a terminal in the project folder and run:
 ```bash
 pip install opencv-python numpy
 ```
+<br>
 
-yolo weights : https://pjreddie.com/media/files/yolov3.weights
+## Dataset Download
+1. For Face Detection: No additional files needed (uses built-in OpenCV Classifier)
+2. For Object Detection: Download YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
+Place the downloaded `yolov3.weights` file in the `yolo/` folder
+
+
+
