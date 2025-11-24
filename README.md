@@ -11,7 +11,7 @@ This project demonstrates two detection systems programmed with OpenCV:
 - Python 3.8+
 - OpenCV
 - NumPY
-- 
+  
 ### 1. Install Python
 Ensure you have **Python 3.8 or higher** installed.
 
