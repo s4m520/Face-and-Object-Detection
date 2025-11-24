@@ -42,7 +42,7 @@ CV Project/
 <br>
 
 ## How to Run
-### 1. Face Detection
+### Face Detection
 Open a terminal in the project folder and run:
 ```bash
 python face.py
@@ -53,7 +53,7 @@ Press '**q**' to quit
   - Draws red squares around detected faces.
 <br>
  
-### 2. Object Detection
+### Object Detection
 Open a terminal in the project folder and run:
 ```bash
 python object.py
