@@ -60,6 +60,7 @@ Open a terminal in the project folder and run:
 python detection.py
 ```
 Press '**q**' to quit
+<br>
 **Results:**
 - The system first detects faces through your webcam (using the Haar Cascade classifier).
 - **If faces are detected:**
