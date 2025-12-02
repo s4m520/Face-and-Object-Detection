@@ -1,6 +1,7 @@
 # Face-and-Object-Detection
 
-This project demonstrates two detection applications built with OpenCV in Python:
+This project demonstrates a hybrid real-time detection system built with OpenCV and Ultralytics YOLO11 in Python.
+It performs sequential detection, first identifying human faces, and then switching to object detection when no faces are present.
 - **Face Detection:** Detects faces using the Haar Cascade Classifier.
 - **Object Detection:** Identifies and labels up to 80 object classes using the Ultralytics YOLO11n (You Only Look Once v11) deep-learning model.
 
@@ -14,8 +15,7 @@ This project demonstrates two detection applications built with OpenCV in Python
 - [Required Downloads](#required-downloads)
   - [File Structure](#file-structure)
 - [How to Run](#how-to-run)
-  - [Face Detection](#face-detection)
-  - [Object Detection](#object-detection)
+  - [Detection System](#detection-system)
 
 <br>
 
@@ -39,14 +39,13 @@ pip install opencv-python numpy ultralytics
 
 <a name="required-downloads"></a>
 ## 📁 Required Downloads
-- **Face Detection:** No additional files needed (uses built-in OpenCV classifier).
-- **Object Detection:** No manual downloads needed (the model weights `yolo11n.pt` is automatically downloaded by Ultralytics the first time you run the script.
+No manual downloads are required.
+The Haar Cascade classifier is included in OpenCV by default, and the YOLO11n model weights (`yolo11n.pt`) will be automatically downloaded by Ultralytics the first time you run the script.
 
 ### File Structure
 ```
 CV Project/
-├── face.py
-├── object.py
+├── detection.py
 ├── yolo/
 │   └── yolo11n.pt        # downloaded automatically
 └── README.md
@@ -55,23 +54,19 @@ CV Project/
 
 <a name="how-to-run"></a>
 ## 🚀 How to Run
-### Face Detection
+### Detection System
 Open a terminal in the project folder and run:
 ```bash
-python face.py
+python detection.py
 ```
 Press '**q**' to quit
 - **Results:**
-  - Detects faces using your webcam.
-  - Draws red squares around detected faces.
+  - The system first detects faces through your webcam (using the Haar Cascade classifier).
+  - **If faces are detected:**
+     - Displays red bounding box around each detected face.
+     - Shows a "Face Detected" label in the top right corner.
+  - **If faces are NOT detected:** YOLO11 automatically activates for object detection, which can recognize up to 80 COCO-trained object classes.
+     - Displays green bounding boxes, object names, and confidence scores around each detected object.
+     - Shows an "Object Detection Activated" label in the top right corner.
+  - The webcam feed is flipped horizontally for a natural mirror-like view.
 <br>
- 
-### Object Detection
-Open a terminal in the project folder and run:
-```bash
-python object.py
-```
-Press '**q**' to quit
-- **Results:**
-  - Detects 80 different object classes (trained on the COCO dataset) using your webcam.
-  - Draws green rectangles around detected objects with labels and confidence scores.
