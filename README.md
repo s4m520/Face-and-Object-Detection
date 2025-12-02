@@ -2,7 +2,7 @@
 
 This project demonstrates two detection applications built with OpenCV in Python:
 - **Face Detection:** Detects faces using the Haar Cascade Classifier.
-- **Object Detection:** Identifies and labels up to 80 object classes using the YOLOv3 (You Only Look Once) deep learning model.
+- **Object Detection:** Identifies and labels up to 80 object classes using the Ultralytics YOLO11n (You Only Look Once v11) deep-learning model.
 
 <br>
 
@@ -22,26 +22,25 @@ This project demonstrates two detection applications built with OpenCV in Python
 <a name="setup-instructions"></a>
 ## ⚙️ Setup Instructions
 ### System Requirements
-- Python 3.7+
+- Python 3.8+
 - OpenCV
 - NumPy
+- Ultralytics YOLO
 
 ### 1. Install Python
-Ensure you have **Python 3.7 or higher** installed.
+Ensure you have **Python 3.8 or higher** installed.
 
 ### 2. Install Required Packages
 Open a terminal in the project folder and run:
 ```bash
-pip install opencv-python numpy
+pip install opencv-python numpy ultralytics
 ```
 <br>
 
 <a name="required-downloads"></a>
 ## 📁 Required Downloads
 - **Face Detection:** No additional files needed (uses built-in OpenCV classifier).
-- **Object Detection:**
-  1. Download the YOLOv3 weights file from: https://pjreddie.com/media/files/yolov3.weights
-  2. Place the downloaded `yolov3.weights` file inside the `yolo/` folder.
+- **Object Detection:** No manual downloads needed (the model weights `yolo11n.pt` is automatically downloaded by Ultralytics the first time you run the script.
 
 ### File Structure
 ```
@@ -49,9 +48,7 @@ CV Project/
 ├── face.py
 ├── object.py
 ├── yolo/
-|   ├── coco.names
-│   ├── yolov3.cfg
-│   └── yolov3.weights (download separately)
+│   └── yolo11n.pt        # downloaded automatically
 └── README.md
 ```
 <br>
@@ -76,5 +73,5 @@ python object.py
 ```
 Press '**q**' to quit
 - **Results:**
-  - Detects 80 different object classes (listed in the `coco.names` file) using your webcam.
+  - Detects 80 different object classes (trained on the COCO dataset) using your webcam.
   - Draws green rectangles around detected objects with labels and confidence scores.
