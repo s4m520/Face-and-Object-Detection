@@ -69,6 +69,6 @@ Press '**q**' to quit
 - **If faces are NOT detected:**
     - YOLO11 automatically activates for object detection.
     - Displays green bounding boxes, object names, and confidence scores around each detected object.
-    - Shows an "Object Detection Activated" label in the top right corner.
+    - Shows an "Object Detection Activate" label in the top right corner.
 - The webcam feed is flipped horizontally for a natural mirror-like view.
 <br>
