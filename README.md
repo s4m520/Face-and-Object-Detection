@@ -60,13 +60,14 @@ Open a terminal in the project folder and run:
 python detection.py
 ```
 Press '**q**' to quit
-- **Results:**
-  - The system first detects faces through your webcam (using the Haar Cascade classifier).
-  - **If faces are detected:**
-     - Displays red bounding box around each detected face.
-     - Shows a "Face Detected" label in the top right corner.
-  - **If faces are NOT detected:** YOLO11 automatically activates for object detection, which can recognize up to 80 COCO-trained object classes.
-     - Displays green bounding boxes, object names, and confidence scores around each detected object.
-     - Shows an "Object Detection Activated" label in the top right corner.
-  - The webcam feed is flipped horizontally for a natural mirror-like view.
+**Results:**
+- The system first detects faces through your webcam (using the Haar Cascade classifier).
+- **If faces are detected:**
+    - Displays red bounding box around each detected face.
+    - Shows a "Face Detected" label in the top right corner.
+- **If faces are NOT detected:**
+    - YOLO11 automatically activates for object detection.
+    - Displays green bounding boxes, object names, and confidence scores around each detected object.
+    - Shows an "Object Detection Activated" label in the top right corner.
+- The webcam feed is flipped horizontally for a natural mirror-like view.
 <br>
