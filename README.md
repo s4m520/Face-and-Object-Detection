@@ -87,12 +87,12 @@ This test produced a confusion matrix and metrics (presision, recall, F1-score, 
 
 
 ### To run the evaluation:
-**1. Install Required Packages**
+**1. Install Required Packages**<br>
 Open a terminal in the project folder and run:
 ```bash
 pip install opencv-python pandas scikit-learn
 ```
-**2. Run the program**
+**2. Run the program**<br>
 Open a terminal in the project folder and run:
 ```bash
 cd face_evaluation
