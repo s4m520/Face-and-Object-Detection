@@ -85,15 +85,14 @@ Press '**q**' to quit
 A separate evaluation script was developed to test the accuracy of the Haar Cascade face detection model on a subset of 28 labled images from the WIDER Face dataset.
 This test produced a confusion matrix and metrics (presision, recall, F1-score, accuracy) to evaluate how well the Haar Cascade performs before YOLO11 is triggered.
 
-<br>
 
 ### To run the evaluation:
-### 1. Install Required Packages
+**1. Install Required Packages**
 Open a terminal in the project folder and run:
 ```bash
 pip install opencv-python pandas scikit-learn
 ```
-### 2. Run the program
+**2. Run the program**
 Open a terminal in the project folder and run:
 ```bash
 cd face_evaluation
@@ -102,7 +101,7 @@ python evaluate.py
 <br>
 
 ### Sample Results:
-The following result should appear in the terminal:
+The following should appear in the terminal:
 ```bash
 === Face Detection Evaluation Results ===
 Confusion Matrix:
