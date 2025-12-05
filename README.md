@@ -52,14 +52,15 @@ The Haar Cascade Classifier is included in OpenCV by default, and the YOLO11n mo
 ### File Structure
 ```
 CV Project/
-├── detection.py          # Main Detection System
-├── yolo/
-│   └── yolo11n.pt
-│
 ├── face_evaluation/      # Evaluation Folder
 │   ├── evaluate.py
 │   ├── labels.csv
 │   └── images/
+│
+├── yolo/
+│   └── yolo11n.pt
+│
+├── detection.py          # Main Detection System
 │
 └── README.md
 ```
