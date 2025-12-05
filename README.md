@@ -32,7 +32,9 @@ It performs sequential detection, first identifying human faces, and then switch
 - Ultralytics YOLO
 
 ### 1. Install Python
-Ensure you have **Python 3.8 or higher** installed. <br>
+Ensure you have **Python 3.8 or higher** installed.
+
+<br>
 
 ### 2. Download the Project Folder
 Download the `CV Project` folder by either of the following methods:
@@ -43,7 +45,9 @@ Download the `CV Project` folder by either of the following methods:
   git clone https://github.com/s4m520/Face-and-Object-Detection.git
 ```
 
-Then, open the project folder in your preferred editor (e.g., VS Code). <br>
+Then, open the project folder in your preferred editor (e.g., VS Code).
+
+<br>
 
 ### 3. Install Required Packages
 Open a terminal inside the project folder and run:
