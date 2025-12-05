@@ -16,6 +16,7 @@ It performs sequential detection, first identifying human faces, and then switch
   - [File Structure](#file-structure)
 - [How to Run](#how-to-run)
   - [Detection System](#detection-system)
+- [Face Detection Evaluation](#face-detection-evaluation)
 
 <br>
 
@@ -45,9 +46,15 @@ The Haar Cascade classifier is included in OpenCV by default, and the YOLO11n mo
 ### File Structure
 ```
 CV Project/
-├── detection.py
+├── detection.py          # Main Detection System
 ├── yolo/
 │   └── yolo11n.pt        # downloaded automatically
+│
+├── face_evaluation/
+│   ├── evaluate.py
+│   ├── labels.csv
+│   └── images/
+│
 └── README.md
 ```
 <br>
@@ -72,3 +79,39 @@ Press '**q**' to quit
     - Shows an "Object Detection Activate" label in the top right corner.
 - The webcam feed is flipped horizontally for a natural mirror-like view.
 <br>
+
+<a name="face-detection-evaluation"></a>
+## 🧪 Face Detection
+A separate evaluation script was developed to test the accuracy of the Haar Cascade face detection model on a subset of 28 labled images from the WIDER Face dataset.
+This test produced a confusion matrix and metrics (presision, recall, F1-score, accuracy) to evaluate how well the Haar Cascade performs before YOLO11 is triggered.
+
+<br>
+
+### To run the evaluation:
+### 1. Install Required Packages
+Open a terminal in the project folder and run:
+```bash
+pip install opencv-python pandas scikit-learn
+```
+### 2. Run the program
+Open a terminal in the project folder and run:
+```bash
+cd face_evaluation
+python evaluate.py
+```
+<br>
+
+### Sample Results:
+The following result should appear in the terminal:
+```bash
+=== Face Detection Evaluation Results ===
+Confusion Matrix:
+[[ 1  3]
+ [ 6 18]]
+Precision: 0.86
+Recall: 0.75
+F1-Score: 0.80
+Accuracy: 0.68
+```
+These results confirm that Haar Cascade performs reliably for frontal faces, serving effectively as a fast gatekeeper before invoking YOLO11 for deeper detection.
+
