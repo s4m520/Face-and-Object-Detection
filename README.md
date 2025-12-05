@@ -1,6 +1,6 @@
 # Face-and-Object-Detection
 
-This project demonstrates a hybrid real-time detection system built with OpenCV and Ultralytics YOLO11 in Python.
+This project demonstrates a hybrid detection system built with OpenCV and Ultralytics YOLO11 in Python.
 It performs sequential detection, first identifying human faces, and then switching to object detection when no faces are present.
 - **Face Detection:** Detects faces using the Haar Cascade Classifier.
 - **Object Detection:** Identifies and labels up to 80 object classes using the Ultralytics YOLO11n (You Only Look Once v11) deep-learning model.
