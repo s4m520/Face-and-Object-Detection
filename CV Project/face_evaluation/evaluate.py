@@ -1,6 +1,6 @@
 import cv2
-import pandas as pd
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score
+import pandas as pd # Data handling / spreadsheet library for Python (like excel inside Python) to read and process .csv files easily
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score # Scikit-learn is a machine learning library to calculate performance metrics
 
 # === Load labels ===
 data = pd.read_csv("labels.csv")
@@ -51,3 +51,4 @@ print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
 print(f"F1-Score: {f1:.2f}")
 print(f"Accuracy: {accuracy:.2f}")
+
