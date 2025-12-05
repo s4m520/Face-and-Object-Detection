@@ -35,7 +35,15 @@ It performs sequential detection, first identifying human faces, and then switch
 Ensure you have **Python 3.8 or higher** installed.
 
 ### 2. Download the Project Folder
-Download the `CV Project` folder, then open it in your preferred IDE (Integrated Development Environment) or editor (e.g., VS Code).
+Download the `CV Project` folder by either of the following methods:
+
+- **Option 1:** Click the green **Code** button (top right of the GitHub page) → choose **Download ZIP** → extract it to your computer.
+- **Option 2:** Clone the repository using Git:
+``` bash
+  git clone https://github.com/s4m520/Face-and-Object-Detection.git
+```
+
+Then, open the project folder in your preferred editor (e.g., VS Code).
 
 ### 3. Install Required Packages
 Open a terminal inside the project folder and run:
@@ -52,17 +60,13 @@ The Haar Cascade Classifier is included in OpenCV by default, and the YOLO11n mo
 ### File Structure
 ```
 CV Project/
-├── face_evaluation/      # Evaluation Folder
-│   ├── images/
-│   ├── evaluate.py
-│   └── labels.csv
-│
-├── yolo/
-│   └── yolo11n.pt
-│
 ├── detection.py          # Main Detection System
-│
-└── README.md
+├── face_evaluation/      # Evaluation Folder 
+│   ├── evaluate.py
+│   ├── labels.csv
+│   └── images/
+└── yolo/
+    └── yolo11n.pt
 ```
 <br>
 
