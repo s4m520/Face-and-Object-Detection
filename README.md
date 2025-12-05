@@ -1,5 +1,5 @@
 # Face-and-Object-Detection
-> A lightweight hybrid vision system combining OpenCV and YOLO11 for real-time face and object detection.
+> A lightweight hybrid vision system combining OpenCV and YOLO11 for real-time face and object detection. <br>
 
 This project demonstrates a hybrid detection system built with OpenCV and Ultralytics YOLO11 in Python.
 It performs sequential detection, first identifying human faces, and then switching to object detection when no faces are present.
