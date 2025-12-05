@@ -31,7 +31,10 @@ It performs sequential detection, first identifying human faces, and then switch
 ### 1. Install Python
 Ensure you have **Python 3.8 or higher** installed.
 
-### 2. Install Required Packages
+### 2. Install the Project Folder
+Download the `CV Project` folder.
+
+### 3. Install Required Packages
 Open a terminal in the project folder and run:
 ```bash
 pip install opencv-python numpy ultralytics
