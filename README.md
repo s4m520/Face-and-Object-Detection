@@ -47,7 +47,7 @@ pip install opencv-python numpy ultralytics
 <a name="required-downloads"></a>
 ## 📁 Required Downloads
 No additional downloads are required.
-The Haar Cascade classifier is included in OpenCV by default, and the YOLO11n model weights (`yolo11n.pt`) will be automatically downloaded by Ultralytics the first time you run the script.
+The Haar Cascade Classifier is included in OpenCV by default, and the YOLO11n model weights (`yolo11n.pt`) will be automatically downloaded by Ultralytics the first time you run the script.
 
 ### File Structure
 ```
@@ -75,7 +75,7 @@ python detection.py
 Press '**q**' to quit
 <br><br>
 **Results:**
-- The system first detects faces through your webcam (using the Haar Cascade classifier).
+- The system first detects faces through your webcam (using the Haar Cascade Classifier).
 - **If faces are detected:**
     - Displays red bounding box around each detected face.
     - Shows a "Face Detected" label in the top right corner.
