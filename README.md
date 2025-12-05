@@ -31,6 +31,8 @@ It performs sequential detection, first identifying human faces, and then switch
 - NumPy
 - Ultralytics YOLO
 
+<br>
+
 ### 1. Install Python
 Ensure you have **Python 3.8 or higher** installed.
 
