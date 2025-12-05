@@ -75,15 +75,15 @@ python detection.py
 Press '**q**' to quit
 <br><br>
 **Results:**
+- The webcam feed is flipped horizontally for a natural mirror-like view.
 - The system first detects faces through your webcam (using the Haar Cascade Classifier).
 - **If faces are detected:**
     - Displays red bounding box around each detected face.
-    - Shows a "Face Detected" label in the top right corner.
+    - Shows a "Face Detected" label in the top right corner of the frame.
 - **If faces are NOT detected:**
     - YOLO11 automatically activates for object detection.
     - Displays green bounding boxes, object names, and confidence scores around each detected object.
-    - Shows an "Object Detection Activate" label in the top right corner.
-- The webcam feed is flipped horizontally for a natural mirror-like view.
+    - Shows an "Object Detection Activate" label in the top right corner of the frame.
 <br>
 
 <a name="face-detection-evaluation"></a>
