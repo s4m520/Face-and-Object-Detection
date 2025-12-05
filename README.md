@@ -1,4 +1,5 @@
 # Face-and-Object-Detection
+> A lightweight hybrid vision system combining OpenCV and YOLO11 for real-time face and object detection.
 
 This project demonstrates a hybrid detection system built with OpenCV and Ultralytics YOLO11 in Python.
 It performs sequential detection, first identifying human faces, and then switching to object detection when no faces are present.
@@ -31,11 +32,11 @@ It performs sequential detection, first identifying human faces, and then switch
 ### 1. Install Python
 Ensure you have **Python 3.8 or higher** installed.
 
-### 2. Install the Project Folder
-Download the `CV Project` folder.
+### 2. Download the Project Folder
+Download the `CV Project` folder, then open it in your preferred IDE (Integrated Development Environment) or editor (e.g., VS Code).
 
 ### 3. Install Required Packages
-Open a terminal in the project folder and run:
+Open a terminal inside the project folder and run:
 ```bash
 pip install opencv-python numpy ultralytics
 ```
@@ -84,9 +85,9 @@ Press '**q**' to quit
 <br>
 
 <a name="face-detection-evaluation"></a>
-## 🧪 Face Detection
-A separate evaluation script was developed to test the accuracy of the Haar Cascade face detection model on a subset of 28 labled images from the WIDER Face dataset.
-This test produced a confusion matrix and metrics (presision, recall, F1-score, accuracy) to evaluate how well the Haar Cascade performs before YOLO11 is triggered.
+## 🧪 Face Detection Evaluation
+A separate evaluation script was developed to test the accuracy of the Haar Cascade face detection model on a subset of 28 labeled images from the WIDER Face dataset.
+This test produced a confusion matrix and metrics (precision, recall, F1-score, accuracy) to evaluate how well the Haar Cascade performs before YOLO11 is triggered.
 
 
 ### To run the evaluation:
