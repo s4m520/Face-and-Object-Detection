@@ -40,7 +40,7 @@ pip install opencv-python numpy ultralytics
 
 <a name="required-downloads"></a>
 ## 📁 Required Downloads
-No manual downloads are required.
+No additional downloads are required.
 The Haar Cascade classifier is included in OpenCV by default, and the YOLO11n model weights (`yolo11n.pt`) will be automatically downloaded by Ultralytics the first time you run the script.
 
 ### File Structure
