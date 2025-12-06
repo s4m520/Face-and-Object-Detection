@@ -1,5 +1,5 @@
 # Face-and-Object-Detection
-> A lightweight hybrid vision system combining OpenCV and YOLO11 for real-time face and object detection.
+> A lightweight hybrid system combining OpenCV and YOLO11 for real-time face and object detection.
 
 <br>
 
