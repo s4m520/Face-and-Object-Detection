@@ -29,7 +29,7 @@ It performs sequential detection, first identifying human faces, and then switch
 - Python 3.8+
 - OpenCV
 - NumPy
-- Ultralytics YOLO
+- Ultralytics YOLOv11
 
 
 ### 1. Install Python
